@@ -41,7 +41,7 @@ loss_record = []
 #Train Model
 Optimizer = optim.Adam(Model.parameters(), lr = 0.001)
 
-epochs = 20
+epochs = 4
 
 for epoch in range(epochs):
     for data in train_set:
